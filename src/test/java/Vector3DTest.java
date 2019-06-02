@@ -31,7 +31,7 @@ public class Vector3DTest {
 
     @Test
     public void toStringTest() {
-        Vector3D vector = new Vector3D(1.1d, 2.7d, 3.8d);
-        Assert.assertEquals(vector.toString(), "(1.1, 2.7, 3.8)");
+        Vector3D vector = new Vector3D(1.1d, 2.8d, 322.8d);
+        Assert.assertEquals(vector.toString(), "(1.1, 2.8, 322.8)");
     }
 }
